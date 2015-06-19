@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You turn an existing directory into a blank git repository, waiting for its first commit. You need to do it so that git knows that this is a git repository, and so that git commands will work.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to add only the files you need and not every single file in the working directory. Then when you commit, it commits as one file. If you didn't have the staging area, your two choices would be to commit the entire working directory as one, or commit each individual file individually. Both of these options would make git too cumbersome to use.
