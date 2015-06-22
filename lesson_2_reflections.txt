@@ -5,3 +5,24 @@ You turn an existing directory into a blank git repository, waiting for its firs
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to add only the files you need and not every single file in the working directory. Then when you commit, it commits as one file. If you didn't have the staging area, your two choices would be to commit the entire working directory as one, or commit each individual file individually. Both of these options would make git too cumbersome to use.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add the files that pertain to that particular change, instead of adding ALL files or only one file at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would make me fearless to try new things, since nothing I change has to be perfect. Also different versions of a file would be much easier to keep track of.
+
+How do the diagrams help you visualize the branch structure?
+
+You can see at a glance which commits will be available to you, and which won't.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A new branch that contains changes from both previous branches. Because all commits from both branches are in the new branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging makes the easy decisions for you, which is a real time-saver.
+
